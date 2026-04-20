@@ -1,0 +1,31 @@
+Financial Distress Model — Evaluation
+=======================================================
+Model    : Logistic Regression (NumPy, Adam)
+Data     : WRDS/Compustat 1989–2024
+Target   : distress_3yr
+AUC-ROC  : 0.8380
+Threshold: 0.3000
+Precision: 0.0105  Recall: 0.9043  F1: 0.0207
+TP=255  FP=24115  FN=27  TN=36303
+
+Top features:
+  - f1                        0.7438
+  + o_prob                    0.6370
+  + equity_ratio              0.4603
+  + o_x9                      0.3133
+  - f_score                   0.2866
+  + o_x2                      0.2769
+  + debt_ratio                0.2769
+  - cr                        0.2114
+  + z_x3                      0.2091
+  + aqi                       0.2082
+  - f4                        0.1795
+  + o_x4                      0.1729
+  + o_x7                      0.1405
+  - delta_roa                 0.1293
+  + lev                       0.1158
+  + o_x5                      0.0967
+  + sgai                      0.0930
+  - f8                        0.0810
+  + f7                        0.0786
+  - tata                      0.0768

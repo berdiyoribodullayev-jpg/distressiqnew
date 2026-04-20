@@ -1,0 +1,7 @@
+{
+  "threshold": 0.3,
+  "auc_roc": 0.837956,
+  "best_f1": 0.020688,
+  "target": "distress_3yr",
+  "model_type": "logistic_regression_numpy"
+}
